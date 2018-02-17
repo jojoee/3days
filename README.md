@@ -308,6 +308,9 @@ gulp.task('pack.zip', ['pack'], function () {
 });
 ```
 
+create tag
+when release new version
+
 - [Make WordPress Plugins](https://make.wordpress.org/plugins/)
 - [Developer Information](https://wordpress.org/plugins/developers/)
 - [WordPress Plugin Directory readme.txt standard](https://wordpress.org/plugins/about/readme.txt)
@@ -318,6 +321,7 @@ gulp.task('pack.zip', ['pack'], function () {
 - [How Your Plugin Assets Work](https://developer.wordpress.org/plugins/wordpress-org/plugin-assets/)
 - [How to Use Subversion](https://developer.wordpress.org/plugins/wordpress-org/how-to-use-subversion/)
 - [Plugin Developer FAQ](https://developer.wordpress.org/plugins/wordpress-org/plugin-developer-faq/)
+
 
 ### 8.2 Theme
 
@@ -400,6 +404,52 @@ including code, design, all resources e.g. font, image
 - Any custom features, template should be explained
 - Documentation, any custom features, template should be explained
 
+แนะนำ
+ให้ทำ page list ไว้
+โชว์ใน [readme.txt](https://github.com/jojoee/medium-clone/blob/master/readme.txt) เพื่อตัวเองและ reviewer
+แนบรูปด้วย
+
+post / page checklist
+1. home
+/
+
+2. post
+/featured-image-parent/
+/sticky/
+
+3. page
+/blog/
+/amazon-store/
+/about/
+/parent-page/child-page-03/
+
+3. archive
+3.1 author
+found: /author/joe/
+empty: /author/dewde/
+
+3.2 category
+found: /category/post-formats/
+empty: /category/scholarship/
+
+3.3 date (month)
+found: /2012/12/
+found: /2016/08/
+empty: /2016/12/
+
+3.4 tag
+found: /tag/fail/
+empty: /tag/chat/
+
+4. search
+found: /?s=test
+empty: /?s=404
+
+5. 404
+/404
+
+
+- [Submit Your Theme or Theme Update to the Directory](https://wordpress.org/themes/upload/)
 - [Theme Directory](https://wordpress.org/themes/getting-started/)
 - [Theme Review Team](https://make.wordpress.org/themes/)
 - [Review Process](https://make.wordpress.org/themes/handbook/review/)
@@ -458,3 +508,12 @@ github.com/jojoee/3days
 - [PHP Code Checker](https://phpcodechecker.com/)
 - [WP-CLI](http://wp-cli.org/)
 - [wp_cron](https://codex.wordpress.org/Function_Reference/wp_cron)
+
+### Boilerplate / Starter
+
+- [WordPress Plugin Boilerplate](https://github.com/DevinVinson/WordPress-Plugin-Boilerplate)
+- [WordPress Plugin Boilerplate Generator](https://wppb.me/)
+- [WordPress Widget Boilerplate](https://github.com/tommcfarlin/WordPress-Widget-Boilerplate)
+
+- [Underscores | A Starter Theme for WordPress](https://underscores.me/)
+- [Sage | WordPress Starter Theme](https://roots.io/sage/)
